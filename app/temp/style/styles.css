@@ -1,0 +1,6 @@
+body {
+  background: rgba(227, 233, 239, 1);
+  font-family: serif;
+  -webkit-columns: 360px 2;
+          columns: 360px 2;
+}
