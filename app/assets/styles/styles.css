@@ -1,7 +1,7 @@
 $lightBlue: rgba(227, 233, 239, 1);
 
 body {
-  background: $lightBlue;
-  font-family: serif;
-  columns: 360px 2;
+  background: #fff;
+  font-family: 'lato', sans-serif;
+
 }
