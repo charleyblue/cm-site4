@@ -452,7 +452,7 @@ template {
 
 body {
   background: rgba(227, 233, 239, 1);
-  font-family: 'lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -461,13 +461,12 @@ img {
 }
 
 .container {
-  max-width: 75rem;
-  margin: 0 auto;
-
+  /*max-width: 75rem;
+  margin: 0 auto;*/
 }
 
 .btn {
-  background-color: rgba(0, 81, 120, 1);
+  background-color: rgba(72, 92, 111, 1);
   color: #fff;
   padding: 0.75rem 1.2rem;
   border-radius: 5px;
@@ -483,4 +482,69 @@ img {
 .btn--large {
   font-size: 1.5rem;
   /*padding: 1.1rem 1.9rem;*/
+}
+
+.header {
+  position: relative;
+  background-color: #fff;
+}
+
+.header__img {
+    display: inline-block;
+    /*float: left;*/
+  }
+
+.header__list {
+    display: inline-block;
+    /*float: right;*/
+  }
+
+.header__cta {
+    display: inline-block;
+    /*float: right;*/
+  }
+
+.wrapper {
+  padding-left: 1.125rem;
+  padding-right: 1.125rem;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  color: #000;
+  padding: 0.75rem;
+}
+
+.box--white {
+    background-color: #fff;
+  }
+
+@media (min-width: 800px) {
+
+.box--inline {
+      display: inline-block    
+  }
+  }
+
+.page-section {
+  padding: .75rem 0;
+  border-bottom: 10px solid #fff;
+}
+
+@media (min-width: 530px) {
+
+.page-section {
+    padding: 1.25rem 0
+}
+  }
+
+.page-section--blue {
+    background-color: rgba(72, 92, 111, 1);
+  }
+
+.headline {
+  font-family: 'Goudy Bookletter 1911', serif;
+  text-align: center;
 }

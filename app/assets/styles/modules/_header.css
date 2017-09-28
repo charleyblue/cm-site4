@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  background-color: #fff;
+
+  &__img {
+    display: inline-block;
+    /*float: left;*/
+  }
+
+  &__list {
+    display: inline-block;
+    /*float: right;*/
+  }
+
+  &__cta {
+    display: inline-block;
+    /*float: right;*/
+  }
+}

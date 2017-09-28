@@ -6,89 +6,101 @@
     <meta name="keywords" content="Bookkeeping, payroll, business support services">
     <meta name="viewport" content="width = device-width, initial-scale = 1">
     <title>C&amp;M Bookkeeping, LLC</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Roboto+Condensed" rel="stylesheet">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" href="temp/styles/styles.css">
   </head>
   <body>
     <div class="container">
       <header id="menu" class="header">
-        <div class="header__logo">
-          <img src="assets/images/cm-logo-sm.png" alt="C&amp;M Bookkeeping, LLC logo image">
+        <div class="wrapper">
+          <picture class="header__logo">
+            <source srcset="assets/images/cm-logo-large.png" media="(min-width: 760px)">
+            <img src="assets/images/cm-logo-sm.png" alt="C&amp;M Bookkeeping, LLC logo image" class="header__img">
+          </picture>
+          <ul class="header__list">
+            <li>Services</li>
+            <li>About C&amp;M</li>
+          </ul>
+          <p class="header__cta"><a href="tel:7755256212" class="btn">Get In Touch</a></p>
         </div>
-        <ul>
-          <li>Services</li>
-          <li>About C&amp;M</li>
-        </ul>
-        <p><a href="tel:7755256212" class="btn">Get In Touch</a></p>
       </header>
       <main>
-        <section id="hero" class="large-hero">
-          <div class="">
-            <h1>Bookkeeping &amp; Payroll for Small Business</h1>
-            <h2>Serving the greater Reno, Nevada community</h2>
+        <section id="hero" class="hero page-section">
+          <div class="box">
+            <div class="wrapper">
+              <h1 class="headline">Bookkeeping &amp; Payroll for Small Business</h1>
+              <h2 class="headline">Serving the greater Reno, Nevada community</h2>
+            </div>
           </div>
-          <div class="">
-            <h3>Helping Your Business Build &amp; Grow</h3>
-            <ul>
-              <li>Bookkeeping</li>
-              <li>Business support</li>
-              <li>Payroll</li>
-            </ul>
-            <p>Simplify your daily workflow Save time &amp; money</p>
+          <div class="box">
+            <div class="wrapper">
+              <h3 class="headline">Helping Your Business Build &amp; Grow</h3>
+              <ul>
+                <li>Bookkeeping</li>
+                <li>Business support</li>
+                <li>Payroll</li>
+              </ul>
+              <p>Simplify your daily workflow Save time &amp; money</p>
+            </div>
           </div>
-          <div class="">
-            <p><a href="tel:7755256212" class="btn btn--orange btn--large">Get Started Today</a></p>
-            <p>info@cmbookkeep.com</p>
-            <p>Your Partner in Success</p>
-          </div>
-        </section>
-        <section id="services" class="service">
-          <h1>Our Services</h1>
-          <div class="">
-            <h2>Bookkeeping</h2>
-            <ul>
-              <li>Double-Entry Bookkeeping</li>
-              <li>Custom Chart of Accounts</li>
-              <li>Accrual or Cash Basis</li>
-              <li>Balance Sheet</li>
-              <li>Profit &amp; Loss</li>
-              <li>QuickBooks Online Setup</li>
-            </ul>
-            <img src="assets/images/T-Assets.png" alt="T-account showing assets account entries">
-          </div>
-          <div class="">
-            <h2>Business Support</h2>
-            <ul>
-              <li>Nevada Sales Tax</li>
-              <li>Internal Audits</li>
-              <li>Managerial Reports</li>
-              <li>Billing Service</li>
-              <li>Government Forms</li>
-              <li>Worker's Comp Audits</li>
-            </ul>
-            <img src="assets/images/T-Liability.png" alt="T-account showing liabilities account entries">
-          </div>
-          <div class="">
-            <h2>Payroll</h2>
-            <ul>
-              <li>Payroll Tax Deductions</li>
-              <li>Check Printing</li>
-              <li>Wage Garnishments</li>
-              <li>Electronic Payments</li>
-              <li>Quarterly Payroll Reports</li>
-              <li>1099 &amp; W-2</li>
-            </ul>
-            <img src="assets/images/T-Equity.png" alt="T-account shoing equity account entries">
+          <div class="box">
+            <div class="wrapper">
+              <p><a href="tel:7755256212" class="btn btn--orange btn--large">Get Started Today</a></p>
+              <p>Your Partner in Success</p>
+            </div>
           </div>
         </section>
-        <section id="about" class="about-us">
-          <h1>Who we are - About C&amp;M</h1>
-          <div class="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <section id="services" class="page-section page-section--blue">
+          <div class="wrapper">
+            <h1 class="headline">Our Services</h1>
+            <div class="box box--white box--inline">
+              <h2 class="headline">Bookkeeping</h2>
+              <ul>
+                <li>Double-Entry Bookkeeping</li>
+                <li>Custom Chart of Accounts</li>
+                <li>Accrual or Cash Basis</li>
+                <li>Balance Sheet</li>
+                <li>Profit &amp; Loss</li>
+                <li>QuickBooks Online Setup</li>
+              </ul>
+              <img src="assets/images/T-Assets.png" alt="T-account showing assets account entries">
+            </div>
+            <div class="box box--white box--inline">
+              <h2 class="headline">Business Support</h2>
+              <ul>
+                <li>Nevada Sales Tax</li>
+                <li>Internal Audits</li>
+                <li>Managerial Reports</li>
+                <li>Billing Service</li>
+                <li>Government Forms</li>
+                <li>Worker's Comp Audits</li>
+              </ul>
+              <img src="assets/images/T-Liability.png" alt="T-account showing liabilities account entries">
+            </div>
+            <div class="box box--white box--inline">
+              <h2>Payroll</h2>
+              <ul>
+                <li>Payroll Tax Deductions</li>
+                <li>Check Printing</li>
+                <li>Wage Garnishments</li>
+                <li>Electronic Payments</li>
+                <li>Quarterly Payroll Reports</li>
+                <li>1099 &amp; W-2</li>
+              </ul>
+              <img src="assets/images/T-Equity.png" alt="T-account shoing equity account entries">
+            </div>
           </div>
-          <div class="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <section id="about" class="page-section">
+          <div class="wrapper">
+            <h1>About C&amp;M Bookkeeping, LLC</h1>
+            <div class="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
           </div>
         </section>
       </main>
