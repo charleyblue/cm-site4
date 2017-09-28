@@ -1,7 +1,6 @@
-$lightBlue: rgba(227, 233, 239, 1);
-
-body {
-  background: #fff;
-  font-family: 'lato', sans-serif;
-
-}
+@import "normalize.css";
+@import "base/_variables";
+@import "base/_global";
+@import "base/_mixins";
+@import "modules/_container";
+@import "modules/_btn";

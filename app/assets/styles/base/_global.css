@@ -1,0 +1,10 @@
+
+body {
+  background: $lightBlue;
+  font-family: 'lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
