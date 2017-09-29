@@ -2,6 +2,7 @@
 body {
   background: $lightBlue;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 img {

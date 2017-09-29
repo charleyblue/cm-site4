@@ -1,0 +1,22 @@
+.row {
+
+  border: 1px solid green;
+  @mixin clearfix;
+
+  &__3 {
+    float: left;
+    width: 25%;
+  }
+
+  &__4 {
+    float: left;
+    width: 33.33%;
+    border: 1px solid pink;
+  }
+
+  &__8 {
+    float: left;
+    width: 66.66%;
+  }
+
+}

@@ -5,8 +5,4 @@
   @mixin atSmall {
     padding: 1.25rem 0;
   }
-
-  &--blue {
-    background-color: $darkBlue;
-  }
 }
